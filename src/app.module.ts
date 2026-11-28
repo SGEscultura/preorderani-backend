@@ -6,6 +6,7 @@ import { PrismaModule } from './prisma/prisma.module';
 import { AuthModule } from './auth/auth.module';
 import { HarvestsModule } from './harvests/harvests.module';
 import { PreOrdersModule } from './pre-orders/pre-orders.module';
+import { PaymentsModule } from './payments/payments.module';
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { PreOrdersModule } from './pre-orders/pre-orders.module';
     AuthModule,
     HarvestsModule,
     PreOrdersModule,
+    PaymentsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
