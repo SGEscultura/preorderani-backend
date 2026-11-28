@@ -7,6 +7,7 @@ import { AuthModule } from './auth/auth.module';
 import { HarvestsModule } from './harvests/harvests.module';
 import { PreOrdersModule } from './pre-orders/pre-orders.module';
 import { PaymentsModule } from './payments/payments.module';
+import { LookupsModule } from './lookups/lookups.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { PaymentsModule } from './payments/payments.module';
     HarvestsModule,
     PreOrdersModule,
     PaymentsModule,
+    LookupsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
